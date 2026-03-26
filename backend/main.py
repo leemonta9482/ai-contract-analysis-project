@@ -1,5 +1,8 @@
 # filename: backend/main.py
+# 실행 : uv run fastapi dev main.py
+
 from fastapi import FastAPI
+import DBConnection
 
 app = FastAPI()
 
